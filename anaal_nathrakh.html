@@ -42,6 +42,7 @@
 <p><a href="vitriol.html">V.I.T.R.I.O.L. (Dave Hunt)</a></p>
 <p><a href="irrumator.html">Irrumator (Mick Kenney)</a></p>
 <div>
+  {
  var url = 'https://newsapi.org/v2/everything?' +
            'q=anaal-nathrakh&'+
           'apiKey=85b5e32d00ba44fc96fde31f08774954';
@@ -50,6 +51,7 @@ fetch(req)
     .then(function(response) {
         console.log(response.json());
     }) 
+  }
   </div>
   
   <!-- https://newsapi.org/v2/everything?q=anaal-nathrakh&apiKey=85b5e32d00ba44fc96fde31f08774954 --> 
