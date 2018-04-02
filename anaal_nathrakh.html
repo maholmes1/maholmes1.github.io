@@ -16,7 +16,12 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <!---<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">-->
- 
+ [jsoncontentimporter url=https://newsapi.org/v2/everything?q=anaal-nathrakh&apiKey=85b5e32d00ba44fc96fde31f08774954debugmode=10]
+totalResults: {totalResults}
+{subloop-array:articles:-1}
+<img src={urlToImage} width=100 align=left><b>{articles.title}</b><br>{description} <a href={url} target=_blank>more</a><br clear=all>
+{/subloop-array:articles}
+[/jsoncontentimporter] 
   </head>
   <body bgcolor="000000" text="FF0000" link="FFFF00" vlink="FFFAFA">
     <section class="page-header">
