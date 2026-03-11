@@ -1,0 +1,97 @@
+<style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(120deg, #f3ef08, #ec09ce, #dd2222);
+        height: 100vh;
+      }
+
+       body .h1{
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+        background-image: linear-gradient(120deg, #f3ef08, #ec09ce, #dd2222);
+        height: 100vh;
+      }
+      .body h2 {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(120deg, #f37a08, #f1f1f1, #dd2222);
+        height: 100vh;
+      }
+
+      .company-name {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(120deg, #f37a08, #f1f1f1, #dd2222);
+        height: 100vh;
+      }
+      .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        background: #11014d;
+        border: 2px solid #41a35a;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+      }
+      .
+      .box h1 {
+        text-align: center;
+        padding: 20px 0;
+        background: linear-gradient(100deg, #89ccff, #99ccff);
+        border-bottom: 1px solid silver;
+      }
+      
+      .box h4 {
+        text-align: center;
+        padding: 20px 0;
+        background: linear-gradient(100deg, #89ccff, #99ccff);
+        border-bottom: 1px solid silver;
+      }
+
+      .top {
+        list-style-type: none;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+      }
+      ul.top > li a {
+        text-decoration: none;
+        background-image: linear-gradient(120deg, #44ffff, #ff1133, #efff11);
+        color: #ffffff;
+        padding: 5px 10px;
+        border-radius: 10px;
+      }
+      .nav1 {
+        border-radius: 10px;
+        padding: 2px;
+        background-image: linear-gradient(120deg, #ffdd23, #ff1133, #cbff11);
+      }
+       .nav2 {
+        border-radius: 10px;
+        padding: 2px;
+        background-image: linear-gradient(120deg, #ffdd23, #ff1133, #cbff11);
+      }
+      ul.top > li a:hover {
+        background-image: linear-gradient(#44ffff, #ff1133, #11ff55);
+
+        cursor: pointer;
+      }
+      .login-button {
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        padding: 5px 10px;
+        background-image: linear-gradient(120deg, #ffdd23, #ff1133, #11ff55);
+        border-radius: 10px;
+      }
+      .login-button:hover {
+        background-image: linear-gradient(#ffdd23, #ff1133, #11ff55);
+
+        cursor: pointer;
+      }
+    </style>
+</head>
